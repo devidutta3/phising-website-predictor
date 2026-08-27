@@ -1,0 +1,7 @@
+{
+    "animations.Command-Palette": "Slide",
+    "animations.Focus-Dimming-Mode": "None",
+    "animations.Scrolling": "Slide",
+    "animations.Tabs": "Slide",
+    "animations.UseCursorColorForCursorAnimation": true
+}
