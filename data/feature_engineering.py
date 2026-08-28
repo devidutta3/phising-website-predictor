@@ -6,6 +6,10 @@ def extract_features(df):
     print(df[["url" , "label"]]
           .head()
           )
+    data["num_hyphens"] = df["url"].apply(
+        lambda x: x.count("-")
+    )
+
     print(df["label"].value_counts())
     return data
 df=pd.read_csv(r"data\\raw_data.csv")
